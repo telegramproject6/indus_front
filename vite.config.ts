@@ -8,8 +8,8 @@ export default defineConfig({
     host: '0.0.0.0',       // слушаем все интерфейсы
     port: 3000,            // порт
     https: {
-      key: fs.readFileSync('/home/iazva/Alfred_Projects/refack/hyenasol-main (2)/certs/key.pem'),
-      cert: fs.readFileSync('/home/iazva/Alfred_Projects/refack/hyenasol-main (2)/certs/cert.pem'),
+      key: fs.readFileSync('certs/key.pem'),
+      cert: fs.readFileSync('certs/cert.pem'),
     }
   }
 })
